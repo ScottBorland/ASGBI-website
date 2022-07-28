@@ -1,15 +1,14 @@
 import './App.css';
 import {BrowserRouter, Routes, Route} from "react-router-dom"
-import Home from './pages/Home';
-import Tour from './pages/Tour'
+import Homepage from './pages/Homepage';
+import Tour from './samplePages/Tour'
 import SearchAppBar from './components/AppBar';
 
 function App() {
   return (
       <BrowserRouter>
-      <SearchAppBar/>
       <Routes>
-        <Route path="/" element={<Home/>}/>
+        <Route path="/" element={<Homepage/>}/>
         <Route path="/:id" element={<Tour/>}/>
       </Routes>
       </BrowserRouter>
