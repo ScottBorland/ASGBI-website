@@ -1,4 +1,8 @@
-.img{
-    width: 100%;
+.topLeftLogo{
+    width: 150;
     height: 5rem;
+    border-radius: 2px;
+    margin-top: 5px; 
+    margin-bottom: 5px;
+    margin-left: 20px;
 }

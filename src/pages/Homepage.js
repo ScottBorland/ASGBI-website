@@ -1,7 +1,8 @@
 import '../App.css';
+import ResponsiveAppBar from '../components/ResponsiveAppBar';
 
 const Homepage = () => (
-    <div>Hello world</div>
+    <ResponsiveAppBar/>
 )
 
 export default Homepage
