@@ -31,7 +31,7 @@ const NavMenu = () => {
     }
 
     return (
-        <Box sx={{ flexGrow: 1, marginLeft: 5, display: { xs: 'none', md: 'flex' } }}>
+        <Box sx={{ flexGrow: 1, marginLeft: -3, display: { xs: 'none', md: 'flex' } }}>
           <Button onClick={(event) => {handleOpenMenu(event);setPageNumber(0);}} sx={{my: 2, color: 'black', display: 'block', typography: 'body2'}}>
     {data[0].pageName} 
       </Button>

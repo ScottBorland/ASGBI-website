@@ -2,10 +2,12 @@ import * as React from 'react';
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
-import IconButton from '@mui/material/IconButton';
 import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
-
+import Button from '@mui/material/Button';
+import {TiTick} from 'react-icons/ti';
+import {VscCheck} from 'react-icons/vsc';
+import {FcCheckmark} from 'react-icons/fc'
 
 
 import asgbiLogo from '../assets/asgbi-logo.png';
@@ -62,6 +64,14 @@ const ResponsiveAppBar = () => {
                 </Typography>
               <Box sx={{ flexGrow: 1, marginLeft: 5, display: { xs: 'none', md: 'flex' } }}>
             <NavMenu sx={{ my: 2, color: 'black', display: 'block', typography: 'body2'}}/>
+            <Button variant="outlined" sx={{ my: 2, color: 'blue', display: 'block', typography: 'subtitle2'}}>
+              Login
+            </Button>
+            
+            <Button sx={{ my: 2, color: 'blue', display: 'block', typography: 'subtitle2'}}>
+              Join 
+            </Button>
+            
           </Box>
         </Toolbar>
       </Container>
