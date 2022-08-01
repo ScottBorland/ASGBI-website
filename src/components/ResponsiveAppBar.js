@@ -15,6 +15,9 @@ import asgbiLogo from '../assets/asgbi-logo.png';
 import { createTheme} from '@mui/material/styles';
 import {blue} from '@mui/material/colors';
 import { ThemeProvider } from '@emotion/react';
+import IconButton from '@mui/material/IconButton';
+
+import MobileMenuButton from './MobileMenuButton';
 
 
 import NavMenu from './NavMenu';
@@ -53,7 +56,7 @@ const ResponsiveAppBar = () => {
               letterSpacing: '.1rem',
               color: 'inherit',
               textDecoration: 'none',
-              fontSize: 15,
+              fontSize: 12,
               whiteSpace: 'pre-wrap', 
               overflowWrap: 'break-word',
               marginLeft: 5
@@ -62,6 +65,7 @@ const ResponsiveAppBar = () => {
             Uniting Surgeons and
             Promoting Excellence in Surgery
                 </Typography>
+                <MobileMenuButton/>
               <Box sx={{ flexGrow: 1, marginLeft: 5, display: { xs: 'none', md: 'flex' } }}>
             <NavMenu sx={{ my: 2, color: 'black', display: 'block', typography: 'body2'}}/>
             <Button variant="outlined" sx={{ my: 2, color: 'blue', display: 'block', typography: 'subtitle2'}}>
@@ -71,6 +75,8 @@ const ResponsiveAppBar = () => {
             <Button sx={{ my: 2, color: 'blue', display: 'block', typography: 'subtitle2'}}>
               Join 
             </Button>
+
+            
             
           </Box>
         </Toolbar>
