@@ -53,7 +53,7 @@ const theme = createTheme({
 
 const Slideshow = () => {
     return (
-      <div className="sliderBackground" style={{ marginTop: 7}}>
+      <div className="sliderBackground" style={{ marginTop: 30}}>
         <ThemeProvider theme={theme}>
         <Slide easing="ease" nextArrow={<AiOutlineArrowRight size={25} style={{
       position: 'absolute',
@@ -69,7 +69,6 @@ const Slideshow = () => {
                 <img style={{
                     width: "100%",
                     height: "auto",
-                    maxHeight: "180"
                   }}src={BannerImages[index]}></img>
                 
             </div>
