@@ -13,7 +13,7 @@ const SimpleAccordion = () => {
   return (
         <Box sx={{ color: 'black', flexGrow: 1, display: { xs: 'block', md: 'none'} }}>
                 {data.map((page) => (
-                    <Accordion>
+                    <Accordion key={page.pageName}>
                         <AccordionSummary
                          expandIcon={<ExpandMoreIcon />}
                          aria-controls="panel1a-content"
@@ -23,7 +23,7 @@ const SimpleAccordion = () => {
                     </AccordionSummary>
         <AccordionDetails>
         {page.links.map((link) => (
-            <Button sx={{ color: 'black', flexGrow: 1, display: { xs: 'flex', md: 'none'}}}>
+            <Button key={link}sx={{ color: 'black', flexGrow: 1, display: { xs: 'flex', md: 'none'}}}>
             {link}
                </Button>
             
