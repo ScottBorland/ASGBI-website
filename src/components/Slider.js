@@ -53,8 +53,9 @@ const theme = createTheme({
 
 const Slideshow = () => {
     return (
-      <div className="sliderBackground" style={{ marginTop: 30}}>
+      
         <ThemeProvider theme={theme}>
+          <Box backgroundColor='Snow'>
         <Slide easing="ease" nextArrow={<AiOutlineArrowRight size={25} style={{
       position: 'absolute',
       marginRight: '10',
@@ -74,8 +75,9 @@ const Slideshow = () => {
             </div>
           ))} 
         </Slide>
+        </Box>
         </ThemeProvider>
-      </div>
+      
     )
 }
 

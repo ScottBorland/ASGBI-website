@@ -76,7 +76,8 @@ const theme = createTheme({
 const MainTextCard = () => {
     return (
         <ThemeProvider theme={theme}>
-            <Grid container spacing={10} direction={'row'} justifyContent={'center'} marginTop={0}>
+            <Box backgroundColor={'Snow'}>
+            <Grid container spacing={10} direction={'row'} justifyContent={'center'} marginTop={0} marginBottom={5}>
             <Grid item xs={7}>
             <Box
                 sx={{
@@ -92,7 +93,7 @@ const MainTextCard = () => {
                     width: 100,
                     height: "auto",
                     marginLeft: 70,
-                    marginTop: 25
+                    marginTop: 25,
                   }}src={bjsLogo}></img></Typography>
                 </Paper>
                 
@@ -104,7 +105,7 @@ const MainTextCard = () => {
                     display: { xs: 'none', md: 'flex' },
                 }}
     >
-                <Paper elevation={20} >
+                <Paper elevation={5} >
                     <Button color="success" variant='outlined'sx={{  color: 'black', display: 'block', justifyContent: 'center', alignItems: 'center', width: '100%', backgroundColor: 'white'}}>
                         <Typography justifyContent={'center'} marginTop={4} marginLeft={9} marginRight={3} textAlign={'center'} variant="h1">Join the ASGBI<img src='https://upload.wikimedia.org/wikipedia/commons/3/3b/Eo_circle_green_checkmark.svg' style={{width: 25,
                     height: "auto",
@@ -124,6 +125,7 @@ const MainTextCard = () => {
             </Box>
             </Grid>
             </Grid>
+            </Box>
     </ThemeProvider>
     )
 }

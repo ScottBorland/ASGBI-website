@@ -39,7 +39,7 @@ const ResponsiveAppBar = () => {
 
   return (
     <ThemeProvider theme={theme}>
-    <AppBar position="static">
+    <AppBar position="static" variant='outlined'>
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           <img src={asgbiLogo} alt="Logo" className="topLeftLogo"/>

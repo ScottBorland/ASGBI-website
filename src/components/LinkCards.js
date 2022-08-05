@@ -84,10 +84,11 @@ const LinkCards = () => {
 
     return (
         <ThemeProvider theme={theme}>
+            <Box backgroundColor={'Snow'}>
             <Grid container spacing={10} justifyContent={'center'} rowSpacing={1} columnSpacing={{ xs: 1, sm: 2, md: 3 }} marginTop={10} marginLeft={20} marginRight={20}>
                 <Grid item xs={3.5}>
                     <Box>
-                        <Paper elevation={10}>
+                        <Paper elevation={6}>
                             <Typography variant='h2' textAlign={'center'}>EGS Symposium 2022</Typography>
                             <Link to="">
                             <img style={{width: '100%',
@@ -107,7 +108,7 @@ const LinkCards = () => {
                 </Grid>
                 <Grid item xs={3.5}>
                 <Box>
-                        <Paper elevation={10}>
+                        <Paper elevation={6}>
                             <Typography variant='h2' textAlign={'center'}>ASGBI Award & Fellowship Opportunities</Typography>
                             <Link to="">
                             <img style={{width: '100%',
@@ -127,7 +128,7 @@ const LinkCards = () => {
                 </Grid>
                 <Grid item xs={3.5}>
                 <Box>
-                        <Paper elevation={10}>
+                        <Paper elevation={6}>
                             <Typography variant='h2' textAlign={'center'}>EGS Symposium 2022</Typography>
                             <Link to=''>
                             <img style={{width: '100%',
@@ -146,6 +147,7 @@ const LinkCards = () => {
                     </Box>
                 </Grid>
             </Grid>
+            </Box>
         </ThemeProvider>
     )
 }

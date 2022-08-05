@@ -4,6 +4,7 @@ import ResponsiveAppBar from '../components/ResponsiveAppBar';
 import PrimarySearchAppBar from '../components/SampleAppBar';
 import MainTextCard from '../components/MainTextCard';
 import LinkCards from '../components/LinkCards';
+import NewsSection from '../components/NewsSection';
 
 
 import Slideshow from '../components/Slider';
@@ -16,7 +17,6 @@ import { createTheme} from '@mui/material/styles';
 
 import {blue} from '@mui/material/colors';
 
-import GlobalStyles from "@mui/material/GlobalStyles";
 
 const theme = createTheme({
 
@@ -25,7 +25,7 @@ const theme = createTheme({
         main: blue[900],
       },
       secondary: {
-        main: blue[500],
+        main: blue[900],
       },
     },
   });
@@ -34,11 +34,7 @@ const Homepage = () => (
 
     <AppBar position='static'>
         <ThemeProvider theme={theme}>
-            <GlobalStyles
-                 styles={{
-                body: { backgroundColor: "white" }
-                }}
-            />
+            
             <ResponsiveAppBar/>
 
             <Slideshow/>
@@ -46,7 +42,9 @@ const Homepage = () => (
             <MainTextCard/>
         
             <LinkCards/>
-            <LinkCards/>
+
+            <NewsSection/>
+         
         </ThemeProvider>
     </AppBar>
 )
