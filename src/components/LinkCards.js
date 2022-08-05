@@ -85,7 +85,7 @@ const LinkCards = () => {
     return (
         <ThemeProvider theme={theme}>
             <Box backgroundColor={'Snow'}>
-            <Grid container spacing={10} justifyContent={'center'} rowSpacing={1} columnSpacing={{ xs: 1, sm: 2, md: 3 }} marginTop={10} marginLeft={20} marginRight={20}>
+            <Grid container spacing={10} justifyContent={'center'} rowSpacing={1} columnSpacing={{ xs: 1, sm: 2, md: 3 }} marginTop={10} marginLeft={20} marginRight={20} marginBottom={5}>
                 <Grid item xs={3.5}>
                     <Box>
                         <Paper elevation={6}>

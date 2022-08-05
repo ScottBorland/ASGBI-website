@@ -72,7 +72,7 @@ const NewsSection = () => {
     return (
         <ThemeProvider theme={theme}>
         <Box backgroundColor={'Snow'}>
-            <Grid container spacing={10} justifyContent={'center'} rowSpacing={1} columnSpacing={{ xs: 1, sm: 2, md: 3 }} marginTop={10} marginLeft={20} marginRight={20}>
+            <Grid container spacing={10} justifyContent={'center'} rowSpacing={1} columnSpacing={{ xs: 1, sm: 2, md: 3 }} marginTop={10} marginLeft={20} marginRight={20} marginBottom={5}>
                 <Grid item xs={5}>
                     <Box>
                     <Typography textAlign='center' color='black' variant='h4'>Tweets from @ASGBI</Typography>
@@ -81,7 +81,7 @@ const NewsSection = () => {
                 </Grid>
                 <Grid item xs={5}>
                     <Box>
-                    <Typography textAlign='center' color='black' variant='h4'>What's New...</Typography>
+                    <Typography textAlign='center' color='black' variant='h4' marginBotton={4}>What's New...</Typography>
                         <Paper  elevation={2} mr={2}>
                             <Typography color='black' variant='subtitle2'>National Confidential Enquiry into Patient Outcome and Death - Newsletter May 2022</Typography>
 

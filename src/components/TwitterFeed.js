@@ -12,7 +12,7 @@ const TwitterContainer = () => {
           options={{
             tweetLimit: "10",
             width: 600,
-            height: 500
+            height: 430
           }}
           theme="light"
           noHeader="true"
