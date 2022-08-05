@@ -76,7 +76,7 @@ const theme = createTheme({
 const MainTextCard = () => {
     return (
         <ThemeProvider theme={theme}>
-            <Box backgroundColor={'Snow'}>
+            <Box backgroundColor={'GhostWhite'}>
             <Grid container spacing={10} direction={'row'} justifyContent={'center'} marginTop={0} marginBottom={5}>
             <Grid item xs={7}>
             <Box

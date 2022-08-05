@@ -5,6 +5,7 @@ import PrimarySearchAppBar from '../components/SampleAppBar';
 import MainTextCard from '../components/MainTextCard';
 import LinkCards from '../components/LinkCards';
 import NewsSection from '../components/NewsSection';
+import LogoList from '../components/LogoList';
 
 
 import Slideshow from '../components/Slider';
@@ -44,6 +45,8 @@ const Homepage = () => (
             <LinkCards/>
 
             <NewsSection/>
+            
+            <LogoList/>
          
         </ThemeProvider>
     </AppBar>
