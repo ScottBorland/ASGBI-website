@@ -84,8 +84,8 @@ const MainTextCard = () => {
                     display: { xs: 'none', md: 'flex' },
                 }}
     >
-                <Paper elevation={10} >
-                        <Typography marginTop={4} marginLeft={3} marginRight={3} textAlign={'center'} variant="h3">Welcome to ASGBI</Typography>
+                <Paper elevation={10} sx={{padding:5}} >
+                        <Typography marginTop={4} marginLeft={3} marginRight={3} textAlign={'center'} variant="h3">Welcome to the ASGBI</Typography>
                         <Typography marginTop={2} marginLeft={3} marginRight={3} textAlign={'center'} variant="h2">Association of Surgeons of Great Britain & Ireland</Typography>
                         <Typography marginTop={3} marginLeft={3} marginRight={3} variant="body2">ASGBI is the statutory organisation representing general surgeons in the UK and Ireland. The Association was established in 1920 and has a long history of providing information, advice, opportunities for further education and networking for its members. It provides leadership in general and emergency surgery and collates sub-specialist knowledge from 12 sister organisations who comprise modern general surgery.</Typography>
                         <Typography marginTop={3} marginLeft={3} marginRight={3} variant="body2">The founding objectives of the Association, were twofold – the advancement of the science and art of surgery and the promotion of friendship amongst surgeons; these objectives remain the same today. ASGBI actively pursues inclusive policies. Further details are available <a href="/about/about_team.htm">here</a></Typography>

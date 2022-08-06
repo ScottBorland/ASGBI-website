@@ -36,7 +36,7 @@ const Homepage = () => (
     <AppBar position='static'>
         <ThemeProvider theme={theme}>
             
-            <ResponsiveAppBar/>
+            {/* <ResponsiveAppBar/>
 
             <Slideshow/>
 
@@ -44,7 +44,7 @@ const Homepage = () => (
         
             <LinkCards/>
 
-            <NewsSection/>
+            <NewsSection/> */}
             
             <LogoList/>
          

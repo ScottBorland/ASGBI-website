@@ -42,7 +42,7 @@ const ResponsiveAppBar = () => {
     <AppBar position="static" variant='outlined'>
       <Container maxWidth="xl">
         <Toolbar disableGutters>
-          <img src={asgbiLogo} alt="Logo" className="topLeftLogo"/>
+          <img src={asgbiLogo} alt="Logo" className="topLeftLogo" style={{padding:10, marginLeft:-10}}/>
           <Typography
             variant="h5"
             noWrap

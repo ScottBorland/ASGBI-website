@@ -82,15 +82,17 @@ const LogoList = () => {
     return (
         <ThemeProvider theme={theme}>
         <Box backgroundColor={'white'}>
-            <Typography textAlign='center' marginBottom={0} marginTop={4} variant='h2' color='black'>Strategic Business Collaborators</Typography>
-            <img src={itemData[0].url} style={{width: 150, height: 'auto', marginRight: 50, marginLeft: 20, marginTop: 100}}></img>
-            <img src={itemData[1].url} style={{width: 200, height: 'auto', marginTop: -10}}></img>
-            <img src={itemData[2].url} style={{width: 200, height: 'auto'}}></img>
-            <img src={itemData[3].url} style={{width: 200, height: 'auto'}}></img>
-            <img src={itemData[4].url} style={{width: 200, height: 'auto'}}></img>
-            <img src={itemData[5].url} style={{width: 200, height: 'auto'}}></img>
-            <img src={itemData[6].url} style={{width: 200, height: 'auto'}}></img>
-            <img src={itemData[7].url} style={{width: 200, height: 'auto'}}></img>
+            <Typography textAlign='center' marginBottom={0} marginTop={4} variant='h2' color='black' paddingBottom={2}>Strategic Business Collaborators</Typography>
+            <Box display={'flex'} flexWrap={'wrap'}>
+            <img src={itemData[0].url} style={{width: 140, height: 50, marginRight: 50, marginLeft: 20, marginTop: 15}}></img>
+            <img src={itemData[1].url} style={{width: 140, height: 40, marginRight: 50, marginTop:19}}></img>
+            <img src={itemData[2].url} style={{width: 140, height: 50, marginTop: 15}}></img>
+            <img src={itemData[3].url} style={{width: 170, height: 100, marginTop: -10, padding: 5}}></img>
+            <img src={itemData[4].url} style={{width: 170, height: 50, marginTop: 9, marginLeft: 17}}></img>
+            <img src={itemData[5].url} style={{width: 220, height: 140, marginTop: -30}}></img>
+            <img src={itemData[6].url} style={{width: 180, height: 70, marginTop: 4}}></img>
+            <img src={itemData[7].url} style={{width: 170, height: 120, marginTop: -17}}></img>
+            </Box>
         </Box>
         </ThemeProvider>
     )

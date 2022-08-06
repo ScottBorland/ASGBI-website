@@ -72,11 +72,13 @@ const NewsSection = () => {
     return (
         <ThemeProvider theme={theme}>
         <Box backgroundColor={'GhostWhite'}>
-            <Grid container spacing={10} justifyContent={'center'} rowSpacing={1} columnSpacing={{ xs: 1, sm: 2, md: 3 }} marginTop={10} marginLeft={20} marginRight={20} marginBottom={5}>
+            <Grid container spacing={10} justifyContent={'center'} rowSpacing={1} columnSpacing={{ xs: 1, sm: 2, md: 10 }} marginTop={10} marginLeft={20} marginRight={20} marginBottom={5}>
                 <Grid item xs={5}>
                     <Box>
                     <Typography textAlign='center' color='black' variant='h4'>Tweets from @ASGBI</Typography>
+                    <Paper elevation={3}>
                     <TwitterContainer/>
+                    </Paper>
                     </Box>
                 </Grid>
                 <Grid item xs={5}>
