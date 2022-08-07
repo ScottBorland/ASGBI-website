@@ -7,7 +7,8 @@ import Container from '@mui/material/Container';
 import Button from '@mui/material/Button';
 import {TiTick} from 'react-icons/ti';
 import {VscCheck} from 'react-icons/vsc';
-import {FcCheckmark} from 'react-icons/fc'
+import {FcCheckmark} from 'react-icons/fc';
+import {AiFillCaretRight} from 'react-icons/ai';
 
 
 import asgbiLogo from '../assets/asgbi-logo.png';
@@ -27,7 +28,10 @@ const theme = createTheme({
 
   palette: {
     primary: {
-      main: '#ffff',
+      main: '#f8f8ff',
+      text: '#191923',
+      button: '#77FF94',
+      backdrop: '#006DAA'
     },
     secondary: {
       main: blue[900],
@@ -55,9 +59,10 @@ const ResponsiveAppBar = () => {
               fontFamily: 'Roboto',
               fontWeight: 200,
               letterSpacing: '.1rem',
-              color: 'inherit',
+              color: 'primary.main',
+              textColor: 'primary.main',
               textDecoration: 'none',
-              fontSize: 12,
+              fontSize: 13,
               whiteSpace: 'pre-wrap', 
               overflowWrap: 'break-word',
               marginLeft: 5
@@ -67,14 +72,14 @@ const ResponsiveAppBar = () => {
             Promoting Excellence in Surgery
                 </Typography>
                 <MobileMenuButton/>
-              <Box sx={{ flexGrow: 1, marginLeft: 5, display: { xs: 'none', md: 'flex' } }}>
-            <NavMenu sx={{ my: 2, color: 'black', display: 'block', typography: 'body2'}}/>
-            <Button variant="outlined" sx={{ my: 2, color: 'blue', display: 'block', typography: 'subtitle2'}}>
-              Login
+              <Box sx={{ flexGrow: 1, marginLeft: 0, display: { xs: 'none', md: 'flex' } }}>
+            <NavMenu sx={{ my: 2, color: 'white', display: 'block', typography: 'body2'}}/>
+            <Button variant="outlined" sx={{ my: 2, marginRight:2, backgroundColor: 'primary.button', color: 'primary.text', display: 'block', typography: 'subtitle2'}}>
+              Login<AiFillCaretRight style={{marginLeft: 0, paddingTop: 2}}></AiFillCaretRight>
             </Button>
             
-            <Button sx={{ my: 2, color: 'blue', display: 'block', typography: 'subtitle2'}}>
-              Join 
+            <Button sx={{ my: 2, backgroundColor: 'primary.button', color: 'primary.text', display: 'block', typography: 'subtitle2'}}>
+              Join<AiFillCaretRight style={{marginLeft: 3, paddingTop: 2}}></AiFillCaretRight>
             </Button>
 
             

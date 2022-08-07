@@ -34,15 +34,15 @@ const slideImages = [
 
 const BannerImages = [BannerImage, BannerImage2, BannerImage3];
 
-const theme = createTheme({
+const theme3 = createTheme({
 
     palette: {
       primary: {
-        main: '#ffff',
-      },
-      secondary: {
-        main: blue[900],
-      },
+        main: '#FFFDF7',
+        text: '#2D3142',
+        button: '#739E82',
+        backdrop: '#006DAA'
+      }
     },
     // Media: {
     //     height: 550,
@@ -54,8 +54,8 @@ const theme = createTheme({
 const Slideshow = () => {
     return (
       
-        <ThemeProvider theme={theme}>
-          <Box backgroundColor='Snow'>
+        <ThemeProvider theme={theme3}>
+          <Box backgroundColor={theme3.palette.primary.backdrop}>
         <Slide easing="ease" nextArrow={<AiOutlineArrowRight size={25} style={{
       position: 'absolute',
       marginRight: '10',

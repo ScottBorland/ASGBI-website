@@ -12,6 +12,7 @@ import Slideshow from '../components/Slider';
 import Container from '@mui/material/Container';
 import Toolbar from '@mui/material/Toolbar';
 import AppBar from '@mui/material/AppBar';
+import Box from '@mui/material/Box';
 
 import { ThemeProvider } from '@emotion/react';
 import { createTheme} from '@mui/material/styles';
@@ -23,10 +24,13 @@ const theme = createTheme({
 
     palette: {
       primary: {
-        main: blue[900],
+        main: '#f8f8ff',
+        text: '#191923',
+        button: '#7CAE7A',
+        backdrop: '#006DAA'
       },
       secondary: {
-        main: blue[900],
+        main: '#739E82',
       },
     },
   });
@@ -36,7 +40,7 @@ const Homepage = () => (
     <AppBar position='static'>
         <ThemeProvider theme={theme}>
             
-            {/* <ResponsiveAppBar/>
+            <ResponsiveAppBar/>
 
             <Slideshow/>
 
@@ -44,7 +48,7 @@ const Homepage = () => (
         
             <LinkCards/>
 
-            <NewsSection/> */}
+            <NewsSection/>
             
             <LogoList/>
          
