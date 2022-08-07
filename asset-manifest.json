@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ASGBI-website/static/css/main.7307baa0.css",
-    "main.js": "/ASGBI-website/static/js/main.2b3fedc5.js",
+    "main.js": "/ASGBI-website/static/js/main.cd5b5056.js",
     "static/js/787.38b3e247.chunk.js": "/ASGBI-website/static/js/787.38b3e247.chunk.js",
     "static/media/Banner2.png": "/ASGBI-website/static/media/Banner2.fcb7959beb342e3a48a9.png",
     "static/media/Banner3.png": "/ASGBI-website/static/media/Banner3.97a36403d0f37aa13cce.png",
@@ -11,11 +11,11 @@
     "static/media/asgbi-logo.png": "/ASGBI-website/static/media/asgbi-logo.33a14c150e7548791a69.png",
     "index.html": "/ASGBI-website/index.html",
     "main.7307baa0.css.map": "/ASGBI-website/static/css/main.7307baa0.css.map",
-    "main.2b3fedc5.js.map": "/ASGBI-website/static/js/main.2b3fedc5.js.map",
+    "main.cd5b5056.js.map": "/ASGBI-website/static/js/main.cd5b5056.js.map",
     "787.38b3e247.chunk.js.map": "/ASGBI-website/static/js/787.38b3e247.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7307baa0.css",
-    "static/js/main.2b3fedc5.js"
+    "static/js/main.cd5b5056.js"
   ]
 }
