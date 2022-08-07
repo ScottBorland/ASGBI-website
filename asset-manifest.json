@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.7307baa0.css",
-    "main.js": "/static/js/main.8c324711.js",
-    "static/js/787.38b3e247.chunk.js": "/static/js/787.38b3e247.chunk.js",
-    "static/media/Banner2.png": "/static/media/Banner2.fcb7959beb342e3a48a9.png",
-    "static/media/Banner3.png": "/static/media/Banner3.97a36403d0f37aa13cce.png",
-    "static/media/Banner1.png": "/static/media/Banner1.23434515baddb95cdf6d.png",
-    "static/media/bjs-logo.jpg": "/static/media/bjs-logo.1f360e9bacfcf08a1e89.jpg",
-    "static/media/ethicon2.png": "/static/media/ethicon2.522ccc30325cac7a6deb.png",
-    "static/media/asgbi-logo.png": "/static/media/asgbi-logo.33a14c150e7548791a69.png",
-    "index.html": "/index.html",
-    "main.7307baa0.css.map": "/static/css/main.7307baa0.css.map",
-    "main.8c324711.js.map": "/static/js/main.8c324711.js.map",
-    "787.38b3e247.chunk.js.map": "/static/js/787.38b3e247.chunk.js.map"
+    "main.css": "/ASGBI-website/static/css/main.7307baa0.css",
+    "main.js": "/ASGBI-website/static/js/main.e40e2e88.js",
+    "static/js/787.38b3e247.chunk.js": "/ASGBI-website/static/js/787.38b3e247.chunk.js",
+    "static/media/Banner2.png": "/ASGBI-website/static/media/Banner2.fcb7959beb342e3a48a9.png",
+    "static/media/Banner3.png": "/ASGBI-website/static/media/Banner3.97a36403d0f37aa13cce.png",
+    "static/media/Banner1.png": "/ASGBI-website/static/media/Banner1.23434515baddb95cdf6d.png",
+    "static/media/bjs-logo.jpg": "/ASGBI-website/static/media/bjs-logo.1f360e9bacfcf08a1e89.jpg",
+    "static/media/ethicon2.png": "/ASGBI-website/static/media/ethicon2.522ccc30325cac7a6deb.png",
+    "static/media/asgbi-logo.png": "/ASGBI-website/static/media/asgbi-logo.33a14c150e7548791a69.png",
+    "index.html": "/ASGBI-website/index.html",
+    "main.7307baa0.css.map": "/ASGBI-website/static/css/main.7307baa0.css.map",
+    "main.e40e2e88.js.map": "/ASGBI-website/static/js/main.e40e2e88.js.map",
+    "787.38b3e247.chunk.js.map": "/ASGBI-website/static/js/787.38b3e247.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7307baa0.css",
-    "static/js/main.8c324711.js"
+    "static/js/main.e40e2e88.js"
   ]
 }
